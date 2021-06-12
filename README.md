@@ -13,7 +13,7 @@
 ## Installation <a name="Installation"></a>
 1. Add your AWS keys amd output_folder to dl.cfg 
 2. Make sure all libraries imported in etl.py are installed in your Python environment
-3. Run the 'python etl.py' in order to trigger the etl process
+3. Run the 'python etl.py' or 'spark-submit etl.py' in order to trigger the etl process
 
 ## File Descriptions <a name="File-Descriptions"></a>
 1. dl.cfg: Template for the aws configration and output folder name
